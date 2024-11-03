@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  background: #000000;
+  font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.header {
+
+  text-align: center;
+  color: #fff;
+  font: bold;
+  padding: 10px 0px;
+
+  .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 80px; */
+
+
+
+    .logo {
+      width: 227px;
+      height: 46px;
+    }
+
+    .nav-menu {
+      /* font-family: Montserrat; */
+      text-transform: none;
+      letter-spacing: 0px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+
+      .nav-item-1 {
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: 5px 15px;
+      }
+    }
+  }
+
+}
+
+.site-body {
+  background-color: #151515;
+  color: white;
+
+  .hero-section {
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 20px; */
+
+    .hero-image-section {
+      width: 50%;
+      /* padding-top: 37.14px;
+      padding-bottom: 37.14px; */
+      
+      padding: 93px;
+      
+      .hero-image {
+        width: 711px;
+        height: 510px;
+      }
+
+    }
+
+    .hero-content-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .hero-title {
+        letter-spacing: -1px;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 800;
+      }
+
+      .hero-subtitle {
+        color: #6e7174;
+        letter-spacing: -1px;
+        font-size: 28px;
+        line-height: 50px;
+        font-weight: 400;
+
+      }
+
+      .hero-button {
+        width: fit-content;
+        background-color: #8d0000;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+        padding: 13px 18px;
+        border-radius: 100px;
+
+        .button-arrow {
+          background-color: #ffffff38;
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+          padding: 5px;
+        }
+      }
+
+      .context-trail {
+        color: #636363;
+      }
+    }
+  }
+}
+
+.site-tools{
+  background-color: #1E1E1E;
+  display: flex;
+  align-items: center;
+  color: white;
+  .tools{
+
+  }
+}
+.footer{
+
+}
+
+/* body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
+}
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
+
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
+
+#siteNavigation .current { background-color: #ccd; }
+
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+
+
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
+
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
+
+
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
+
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; } */
